@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E37C4F6B19F6B68400CF8202 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37C4F6A19F6B68400CF8202 /* AppDelegate.swift */; };
-		E37C4F6D19F6B68400CF8202 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37C4F6C19F6B68400CF8202 /* ViewController.swift */; };
+		E37C4F6D19F6B68400CF8202 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37C4F6C19F6B68400CF8202 /* MyViewController.swift */; };
 		E37C4F7019F6B68400CF8202 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E37C4F6E19F6B68400CF8202 /* Main.storyboard */; };
 		E37C4F7219F6B68400CF8202 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E37C4F7119F6B68400CF8202 /* Images.xcassets */; };
 		E37C4F7519F6B68400CF8202 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E37C4F7319F6B68400CF8202 /* LaunchScreen.xib */; };
@@ -29,7 +29,7 @@
 		E37C4F6519F6B68400CF8202 /* ShoeConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoeConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E37C4F6919F6B68400CF8202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E37C4F6A19F6B68400CF8202 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E37C4F6C19F6B68400CF8202 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E37C4F6C19F6B68400CF8202 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		E37C4F6F19F6B68400CF8202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E37C4F7119F6B68400CF8202 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E37C4F7419F6B68400CF8202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				E37C4F6A19F6B68400CF8202 /* AppDelegate.swift */,
-				E37C4F6C19F6B68400CF8202 /* ViewController.swift */,
+				E37C4F6C19F6B68400CF8202 /* MyViewController.swift */,
 				E37C4F6E19F6B68400CF8202 /* Main.storyboard */,
 				E37C4F7119F6B68400CF8202 /* Images.xcassets */,
 				E37C4F7319F6B68400CF8202 /* LaunchScreen.xib */,
@@ -212,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E37C4F6D19F6B68400CF8202 /* ViewController.swift in Sources */,
+				E37C4F6D19F6B68400CF8202 /* MyViewController.swift in Sources */,
 				E37C4F6B19F6B68400CF8202 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +407,7 @@
 				E37C4F8619F6B68400CF8202 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E37C4F8719F6B68400CF8202 /* Build configuration list for PBXNativeTarget "ShoeConverterTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +416,7 @@
 				E37C4F8919F6B68400CF8202 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
